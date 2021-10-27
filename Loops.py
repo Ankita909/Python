@@ -2,6 +2,8 @@
 
 # iterating over a sequence is called traversal
 
-for x in range(10):
-    print(2*x)
-    print(2*x, end=" , ")   # gets printed in new line
+
+#for loops with list
+a=['apple','mango','banana','orange']
+for name in a:
+    print(name *2)  # when a string is multiplied to any integer it gets itself repeated that many times
