@@ -1,3 +1,4 @@
+
 # ----------creating and printing 1-D array---------------
 import numpy as np
 a=np.array([2,3,4,5])
@@ -24,3 +25,5 @@ g=np.array([2,8,16],dtype="complex")
 print(g)
 h=np.array([(1,2),(3,5)],dtype=[('a','<i4'),('b','<i4')])
 print(h['a'])
+
+help(np.array)
