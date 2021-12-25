@@ -1,0 +1,13 @@
+import numpy as np
+#help(np.eye)
+a=np.eye(2,dtype=int)
+print(a)
+print("-----------------------------")
+b=np.eye(2,3)
+print(b)
+print("-----------------------------")
+c=np.eye(4,k=-1)
+print(c)
+print("-----------------------------")
+d=np.eye(5,k=2)
+print(d)
